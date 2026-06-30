@@ -1,11 +1,10 @@
-import { Smartphone, Layers, Database, Wrench, Code, Zap } from 'lucide-react'
+import { Smartphone, Layers, Database, Wrench, Zap } from 'lucide-react'
 
 const groups = [
-    { icon: Smartphone, title: 'Platforms', tags: ['React Native', 'iOS', 'Android', 'Expo', 'React', 'JavaScript'] },
+    { icon: Smartphone, title: 'Platforms', tags: ['React Native', 'iOS', 'Android', 'Expo', 'TypeScript', 'JavaScript'] },
     { icon: Layers, title: 'Architecture', tags: ['Clean Arch', 'Redux', 'Context API', 'TypeScript', 'MVC', 'MVVM'] },
     { icon: Database, title: 'Backend', tags: ['Firebase', 'REST APIs', 'OpenAI API', 'PostgreSQL', 'Node.js', 'MongoDB'] },
     { icon: Wrench, title: 'Tools', tags: ['GitHub', 'VS Code', 'Postman', 'Figma', 'Git', 'Jira'] },
-    { icon: Code, title: 'Languages', tags: ['JavaScript', 'TypeScript', 'HTML', 'CSS', 'Python', 'SQL'] },
     { icon: Zap, title: 'Integrations', tags: ['Payment Gateways', 'Push Notifications', 'Analytics', 'Social Auth', 'Maps API', 'Cloud Storage'] },
 ]
 
@@ -16,7 +15,7 @@ export default function TechStack() {
                 <h2 className="text-headline-lg font-semibold mb-xl border-l-4 border-primary pl-md">
                     Technical Arsenal
                 </h2>
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-lg">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-lg">
                     {groups.map((g, i) => (
                         <div key={i}
                             className="bg-surface p-lg rounded-xl border border-outline-variant/20 ambient-shadow scroll-reveal">

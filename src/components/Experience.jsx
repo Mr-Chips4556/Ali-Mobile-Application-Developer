@@ -2,10 +2,10 @@ const milestones = [
     {
         title: 'React Native Developer',
         company: 'Freelance / Remote',
-        period: '2023 — Present',
+        period: '2026 — Present',
         active: true,
         points: [
-            'Built 3 full-featured cross-platform apps across Islamic services, wellness, and healthcare domains.',
+            'Built multiple full-featured cross-platform apps across Islamic services, wellness,E-Commerce and healthcare domains.',
             'Integrated AI/ML features using OpenAI API for smart in-app experiences.',
             'Implemented payment gateway integrations and real-time Firebase sync.',
         ],
@@ -13,7 +13,7 @@ const milestones = [
     {
         title: 'Mobile App Developer',
         company: 'Personal Projects & Clients',
-        period: '2022 — 2023',
+        period: '2024 — 2025',
         active: false,
         points: [
             'Developed and published mobile apps with clean architecture patterns.',
@@ -21,11 +21,11 @@ const milestones = [
         ],
     },
     {
-        title: 'CS Student & Learner',
+        title: 'IT Student & Learner',
         company: 'University',
-        period: '2020 — 2022',
+        period: '2023 — 2027',
         active: false,
-        desc: 'Studied Computer Science with focus on data structures, algorithms, and software engineering fundamentals.',
+        desc: 'Studied Information Technology with focus on data structures, algorithms, and software engineering fundamentals.',
     },
 ]
 
