@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #FBFAF2;
+  color: #191c1e;
+}
+
+.glass-nav {
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.ambient-shadow {
+  box-shadow: 0 4px 12px rgba(84, 79, 192, 0.04);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.ambient-shadow:hover {
+  box-shadow: 0 8px 24px rgba(84, 79, 192, 0.08);
+  transform: scale(1.02);
+}
+
+.timeline-line::before {
+  content: '';
+  position: absolute;
+  left: 11px;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: #e0e3e5;
+}
+
+.active-node {
+  background: #4800a0;
+  border: 4px solid #FBFAF2;
+}
+
+.scroll-reveal {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 0.7s ease, transform 0.7s ease;
+}
+
+.scroll-reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
